@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ProfProject]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.profproject.utilities.Reportinglistener"/>
+  </listeners>
+  <test name="Heroku App Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.profproject.testcases.TC_LoginDDT_003">
+        <methods>
+          <include name="verifyuserLoggedIn"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.profproject.testcases.TC_LoginDDT_003 -->
+    </classes>
+  </test> <!-- Heroku App Test(failed) -->
+</suite> <!-- Failed suite [ProfProject] -->
